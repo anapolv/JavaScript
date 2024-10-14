@@ -1,0 +1,62 @@
+/* Importação do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Dimensionando a tela e definindo fonte */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/* Estilizando a barra de menu */
+#menu ul {
+    list-style: none;
+    float: center;
+    background-color: rgb(136, 136, 157);
+}
+
+#menu ul li {
+    position: relative;
+    display: inline;
+}
+
+#menu ul li a {
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s; /* transição do display nos botões do menu */
+}
+
+/* Adicionando cor no display quando passa o mouse em cima do botão */
+#menu ul li a:hover {
+    background-color: #3c8fc3;
+}
+
+/* Estilizando o título */
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(136, 136, 157) ;
+    text-shadow: 0px 1px 1px gray;
+}
+
+/* Estilizando o subtítulo */
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #3c8fc3;
+    text-shadow: 0px 1px 1px gray;
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #3c8fc3;
+    text-shadow: 0px 1px 1px gray;
+}
